@@ -1,41 +1,13 @@
-```json
 {
-  "name": "humba-whatsapp-bot",
+  "name": "bleurainz",
   "version": "1.0.0",
-  "description": "A powerful Multi-Device WhatsApp Bot using Baileys, with media handling and automation.",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "MTEE",
-  "license": "MIT",
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.7.9",
-    "axios": "^1.6.8",
-    "dotenv": "^16.3.1",
-    "pino": "^8.0.0",
-    "typescript": "^5.1.6",
-    "wa-sticker-formatter": "^4.4.4",
-    "wikipedia": "^2.1.2",
-    "xfarr-api": "^1.0.3",
-    "yargs": "^17.3.1",
-    "youtube-yts": "^2.0.0",
-    "yt-search": "^2.10.4",
-    "youtubedl-core": "^4.11.7"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [
-    "whatsapp",
-    "baileys",
-    "bot",
-    "automation",
-    "media",
-    "sticker",
-    "wikipedia",
-    "youtube"
-  ]
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@hapi/boom": "^10.0.1"
+  }
 }
-```
